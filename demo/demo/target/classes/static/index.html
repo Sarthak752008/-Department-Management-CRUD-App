@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Department Management</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h2>Department Management</h2>
+
+<form id="deptForm">
+    <input type="text" id="name" placeholder="Department Name" required>
+    <input type="text" id="location" placeholder="Location" required>
+    <button type="submit">Add</button>
+</form>
+
+<table>
+    <thead>
+    <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Location</th>
+        <th>Action</th>
+    </tr>
+    </thead>
+    <tbody id="deptTable"></tbody>
+</table>
+
+<script src="script.js"></script>
+</body>
+</html>
